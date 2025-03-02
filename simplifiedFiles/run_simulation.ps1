@@ -14,5 +14,5 @@ xelab $moduleName
 Write-Host "Running xsim..."
 xsim work.$moduleName -R
 
-
 Write-Host "Simulation completed successfully."
+pause
