@@ -17,3 +17,9 @@ In the cmd terminal type the file name run_simulation.bat
 
  #### If using tcl file
 vivado -mode tcl -source run_vivado_sim.tcl
+
+#### With version-2 tcl file 
+vivado -mode tcl -source run_vivado_sim.tcl -tclargs ex1.sv foreach_example
+
+Where ex1.sv is fileName
+where foreach_example is topModuleName
