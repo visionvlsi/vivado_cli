@@ -23,13 +23,14 @@ vivado -mode tcl -source run_vivado_sim.tcl
 ### With version-2 tcl file 
 [Check this version-2 tcl file here](https://github.com/visionvlsi/vivado_cli/blob/main/run_vivado_sim_v2.tcl)
 
-### With the following bat file now we can pass fileName and moduleName
-[Check this .bat file](https://github.com/visionvlsi/vivado_cli/blob/main/run_vivado_sim.bat)
-
-.\run_vivado_sim.bat ex1.sv foreach_example
-
 vivado -mode tcl -source run_vivado_sim.tcl -tclargs ex1.sv foreach_example
 
 Where ex1.sv is fileName
 
 where foreach_example is topModuleName
+
+### With the following bat file now we can pass fileName and moduleName
+[Check this .bat file](https://github.com/visionvlsi/vivado_cli/blob/main/run_vivado_sim.bat)
+
+.\run_vivado_sim.bat ex1.sv foreach_example
+
