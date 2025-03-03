@@ -16,6 +16,7 @@ In the cmd terminal type the file name run_simulation.bat
  [Refer here for run_simulation.bat file](https://github.com/visionvlsi/vivado_cli/blob/main/run_simulation.bat)
 
  #### If using tcl file
+[Check this tcl file here](https://github.com/visionvlsi/vivado_cli/blob/main/run_vivado_sim.tcl)
 vivado -mode tcl -source run_vivado_sim.tcl
 
 #### With version-2 tcl file 
