@@ -17,9 +17,12 @@ In the cmd terminal type the file name run_simulation.bat
 
  #### If using tcl file
 [Check this tcl file here](https://github.com/visionvlsi/vivado_cli/blob/main/run_vivado_sim.tcl)
+
 vivado -mode tcl -source run_vivado_sim.tcl
 
 #### With version-2 tcl file 
+[Check this version-2 tcl file here](https://github.com/visionvlsi/vivado_cli/blob/main/run_vivado_sim_v2.tcl)
+
 vivado -mode tcl -source run_vivado_sim.tcl -tclargs ex1.sv foreach_example
 
 Where ex1.sv is fileName
